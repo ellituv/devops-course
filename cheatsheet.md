@@ -39,8 +39,8 @@ systemctl stop nginx
 systemctl restart nginx
 systemctl reload nginx
 systemctl enable nginx
-journa
-lctl -u nginx
+
+journa lctl -u nginx
 journalctl -u nginx -f
 journalctl -u nginx -n 50
 
